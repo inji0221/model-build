@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sagemaker-user/model-build/pipelines/mlruns/0/24950f436ca6429cb30efe03b9e1fcbe/artifacts
+end_time: 1752469073058
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 24950f436ca6429cb30efe03b9e1fcbe
+run_name: bedecked-squid-211
+run_uuid: 24950f436ca6429cb30efe03b9e1fcbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752469069891
+status: 3
+tags: []
+user_id: sagemaker-user

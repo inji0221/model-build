@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 2,
+   "execution_count": 1,
    "id": "0c5b928c-4129-4a1e-aad1-c593ddeeb400",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-07-14T05:29:17.539007Z",
-     "iopub.status.busy": "2025-07-14T05:29:17.538676Z",
-     "iopub.status.idle": "2025-07-14T05:29:17.544201Z",
-     "shell.execute_reply": "2025-07-14T05:29:17.543722Z",
-     "shell.execute_reply.started": "2025-07-14T05:29:17.538986Z"
+     "iopub.execute_input": "2025-07-14T04:40:21.654375Z",
+     "iopub.status.busy": "2025-07-14T04:40:21.654051Z",
+     "iopub.status.idle": "2025-07-14T04:40:22.020245Z",
+     "shell.execute_reply": "2025-07-14T04:40:22.019742Z",
+     "shell.execute_reply.started": "2025-07-14T04:40:21.654353Z"
     }
    },
    "outputs": [],
@@ -40,14 +40,6 @@
    "cell_type": "code",
    "execution_count": null,
    "id": "5aae46a5-516a-4ff4-b813-ad1ae1a9c9b8",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "abf55fac-1cc6-48ee-b0d1-c26d707f91aa",
    "metadata": {},
    "outputs": [],
    "source": []

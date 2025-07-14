@@ -2,15 +2,15 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 5,
+   "execution_count": 4,
    "id": "ca17bb7b-280d-4ca8-aa3d-314d3c7d432b",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-07-14T05:29:21.830038Z",
-     "iopub.status.busy": "2025-07-14T05:29:21.829709Z",
-     "iopub.status.idle": "2025-07-14T05:29:25.002358Z",
-     "shell.execute_reply": "2025-07-14T05:29:25.001886Z",
-     "shell.execute_reply.started": "2025-07-14T05:29:21.830018Z"
+     "iopub.execute_input": "2025-07-14T05:05:14.828093Z",
+     "iopub.status.busy": "2025-07-14T05:05:14.827761Z",
+     "iopub.status.idle": "2025-07-14T05:05:18.091032Z",
+     "shell.execute_reply": "2025-07-14T05:05:18.090497Z",
+     "shell.execute_reply.started": "2025-07-14T05:05:14.828070Z"
     }
    },
    "outputs": [
@@ -18,7 +18,7 @@
      "name": "stderr",
      "output_type": "stream",
      "text": [
-      "\u001b[31m2025/07/14 05:29:24 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n"
+      "\u001b[31m2025/07/14 05:05:18 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n"
      ]
     },
     {

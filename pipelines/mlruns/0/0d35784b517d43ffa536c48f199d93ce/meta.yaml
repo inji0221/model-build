@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sagemaker-user/model-build/pipelines/mlruns/0/0d35784b517d43ffa536c48f199d93ce/artifacts
+end_time: 1752469253280
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0d35784b517d43ffa536c48f199d93ce
+run_name: skittish-ant-41
+run_uuid: 0d35784b517d43ffa536c48f199d93ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752469250140
+status: 3
+tags: []
+user_id: sagemaker-user

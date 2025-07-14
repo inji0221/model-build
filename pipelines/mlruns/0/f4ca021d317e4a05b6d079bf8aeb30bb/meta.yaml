@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sagemaker-user/model-build/pipelines/mlruns/0/f4ca021d317e4a05b6d079bf8aeb30bb/artifacts
+end_time: 1752469518088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f4ca021d317e4a05b6d079bf8aeb30bb
+run_name: grandiose-stoat-671
+run_uuid: f4ca021d317e4a05b6d079bf8aeb30bb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752469514835
+status: 3
+tags: []
+user_id: sagemaker-user

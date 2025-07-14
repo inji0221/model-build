@@ -1,0 +1,15 @@
+artifact_uri: file:///home/sagemaker-user/model-build/pipelines/mlruns/0/e466dcf4cbb14db1bb163914c2203647/artifacts
+end_time: 1752470964999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e466dcf4cbb14db1bb163914c2203647
+run_name: flawless-panda-918
+run_uuid: e466dcf4cbb14db1bb163914c2203647
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1752470961837
+status: 3
+tags: []
+user_id: sagemaker-user
