@@ -2,64 +2,52 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 4,
-   "id": "ca17bb7b-280d-4ca8-aa3d-314d3c7d432b",
+   "execution_count": 1,
+   "id": "0c5b928c-4129-4a1e-aad1-c593ddeeb400",
    "metadata": {
     "execution": {
-     "iopub.execute_input": "2025-07-14T05:05:14.828093Z",
-     "iopub.status.busy": "2025-07-14T05:05:14.827761Z",
-     "iopub.status.idle": "2025-07-14T05:05:18.091032Z",
-     "shell.execute_reply": "2025-07-14T05:05:18.090497Z",
-     "shell.execute_reply.started": "2025-07-14T05:05:14.828070Z"
+     "iopub.execute_input": "2025-07-14T05:27:14.681679Z",
+     "iopub.status.busy": "2025-07-14T05:27:14.681386Z",
+     "iopub.status.idle": "2025-07-14T05:27:15.061430Z",
+     "shell.execute_reply": "2025-07-14T05:27:15.060793Z",
+     "shell.execute_reply.started": "2025-07-14T05:27:14.681658Z"
     }
    },
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "\u001b[31m2025/07/14 05:05:18 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.\u001b[0m\n"
-     ]
-    },
-    {
-     "name": "stdout",
-     "output_type": "stream",
-     "text": [
-      "Logged with accuracy: 1.0\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
-    "import mlflow\n",
-    "import mlflow.sklearn\n",
     "import pandas as pd\n",
-    "from sklearn.ensemble import RandomForestClassifier\n",
-    "from sklearn.metrics import accuracy_score\n",
-    "from sklearn.model_selection import train_test_split\n",
     "\n",
-    "# 데이터 불러오기\n",
-    "df = pd.read_csv('data.csv')\n",
-    "X = df[['feature1', 'feature2', 'feature3']]\n",
-    "y = df['label']\n",
+    "data = [\n",
+    "    [5.1, 3.5, 1.4, 0],\n",
+    "    [4.9, 3.0, 1.4, 0],\n",
+    "    [6.2, 3.4, 5.4, 1],\n",
+    "    [5.9, 3.0, 5.1, 1],\n",
+    "    [5.0, 3.6, 1.4, 0],\n",
+    "    [6.7, 3.1, 4.7, 1],\n",
+    "    [5.6, 2.5, 3.9, 1],\n",
+    "    [5.4, 3.9, 1.7, 0],\n",
+    "    [6.9, 3.1, 5.1, 1],\n",
+    "    [5.5, 2.3, 4.0, 1]\n",
+    "]\n",
     "\n",
-    "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)\n",
+    "columns = ['feature1', 'feature2', 'feature3', 'label']\n",
     "\n",
-    "with mlflow.start_run():\n",
-    "    clf = RandomForestClassifier(n_estimators=10, random_state=42)\n",
-    "    clf.fit(X_train, y_train)\n",
-    "    preds = clf.predict(X_test)\n",
-    "    acc = accuracy_score(y_test, preds)\n",
-    "\n",
-    "    mlflow.log_param(\"n_estimators\", 10)\n",
-    "    mlflow.log_metric(\"accuracy\", acc)\n",
-    "    mlflow.sklearn.log_model(clf, \"model\")\n",
-    "    print(f\"Logged with accuracy: {acc}\")\n"
+    "df = pd.DataFrame(data, columns=columns)\n",
+    "df.to_csv('data.csv', index=False)"
    ]
   },
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "f79303a1-1299-4b91-85fb-d937a5facf13",
+   "id": "5aae46a5-516a-4ff4-b813-ad1ae1a9c9b8",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "abf55fac-1cc6-48ee-b0d1-c26d707f91aa",
    "metadata": {},
    "outputs": [],
    "source": []
